@@ -29,14 +29,14 @@
 .nav__item:hover {
   cursor: pointer;
 }
-.nav__item--green {
-  background-color: #4ccfc9;
+.nav__item--blue {
+  background-color: #7cb9fc;
 }
 .nav__item--pink {
   background-color: #ff8db3;
 }
 .nav__item--purple {
-  background-color: #c6baea;
+  background-color: #b2a8e6;
 }
 .nav__link {
   width: 100%;
@@ -51,6 +51,9 @@
   margin: 20px auto 10px;
 }
 .nav__icon--my {
+  width: 60px;
+  height: 60px;
+  margin: 35px auto 15px;
   border-radius: 50%;
 }
 .nav__title {
@@ -70,10 +73,46 @@
 ================================*/
 @media only screen and (max-width: 1024px) {
   /*
-  　1.menu
+  　1.nav
   ================================*/
   .nav {
     width: 95%;
+  }
+}
+/*===============================
+
+　SP
+
+　　1.nav
+
+================================*/
+@media only screen and (max-width: 767px) {
+  /*
+  　1.nav
+  ================================*/
+  .nav {
+    width: 95%;
+  }
+  .nav__list {
+    flex-direction: column;
+  }
+  .nav__item {
+    width: 100%;
+  }
+  .nav__link {
+    display: flex;
+  }
+  .nav__icon {
+    margin: 15px auto;
+  }
+  .nav__icon--my {
+    margin: 25px auto;
+  }
+  .nav__title {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
   }
 }
 

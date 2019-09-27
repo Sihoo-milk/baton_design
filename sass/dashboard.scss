@@ -30,8 +30,8 @@
     &:hover {
       cursor: pointer;
     }
-    &--green {
-      background-color: $color-nav--green;
+    &--blue {
+      background-color: $color-nav--blue;
     }
     &--pink {
       background-color: $color-nav--pink;
@@ -52,6 +52,9 @@
     object-fit: scale-down;
     margin: 20px auto 10px;
     &--my {
+      width: 60px;
+      height: 60px;
+      margin: 35px auto 15px;
       border-radius: 50%;
     }
   }
@@ -74,9 +77,47 @@
 @media only screen and (max-width: 1024px) {
 
   /*
-  　1.menu
+  　1.nav
   ================================*/
   .nav {
     width: 95%;
+  }
+}
+
+/*===============================
+
+　SP
+
+　　1.nav
+
+================================*/
+@media only screen and (max-width: 767px) {
+
+  /*
+  　1.nav
+  ================================*/
+  .nav {
+    width: 95%;
+    &__list {
+      flex-direction: column;
+    }
+    &__item {
+      width: 100%;
+    }
+    &__link {
+      display: flex;
+    }
+    &__icon {
+      margin: 15px auto;
+      &--my {
+        margin: 25px auto;
+      }
+    }
+    &__title {
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      width: 50%;
+    }
   }
 }
