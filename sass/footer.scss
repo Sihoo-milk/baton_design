@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@import "color";
+
+/*===============================
+
+　PC
+
+　　footer
+
+================================*/
+
+.footer {
+  text-align: center;
+  line-height: 41px;
+  background-color: $color-btn--blue;
+  font-size: 14px;
+  color: $color-txt--white;
+}
