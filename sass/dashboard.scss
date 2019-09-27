@@ -5,14 +5,14 @@
 
 　PC
 
-　　1.nav
+　　1.nav-card
 
 ================================*/
 
 /*
-　1.nav
+　1.nav-card
 ================================*/
-.nav {
+.nav-card {
   max-width: 1024px;
   width: 100%;
   margin: 50px auto 0;
@@ -27,6 +27,7 @@
     align-items: center;
     justify-content: center;
     width: 30%;
+    border-radius: 2px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.12);
     &:hover {
       cursor: pointer;
@@ -72,15 +73,15 @@
 
 　Tablet
 
-　　1.nav
+　　1.nav-card
 
 ================================*/
 @media only screen and (max-width: 1024px) {
 
   /*
-  　1.nav
+  　1.nav-card
   ================================*/
-  .nav {
+  .nav-card {
     width: 95%;
   }
 }
@@ -89,15 +90,15 @@
 
 　SP
 
-　　1.nav
+　　1.nav-card
 
 ================================*/
 @media only screen and (max-width: 767px) {
 
   /*
-  　1.nav
+  　1.nav-card
   ================================*/
-  .nav {
+  .nav-card {
     width: 95%;
     &__list {
       flex-direction: column;
