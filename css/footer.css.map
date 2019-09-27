@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": ";AAGA;;;;;;kCAMkC;AAElC,OAAQ;EACN,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,gBAAgB,ECRA,OAAO;EDSvB,SAAS,EAAE,IAAI;EACf,KAAK,ECZY,IAAI",
+"mappings": ";AAGA;;;;;;kCAMkC;AAElC,OAAQ;EACN,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,gBAAgB,ECXH,OAAO;EDYpB,SAAS,EAAE,IAAI;EACf,KAAK,ECVY,IAAI",
 "sources": ["../sass/footer.scss","../sass/_color.scss"],
 "names": [],
 "file": "footer.css"

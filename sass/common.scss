@@ -30,8 +30,8 @@
   background-color: $color-bg;
 }
 .title {
+  padding: 1em 0;
   text-align: center;
-  line-height: 102px;
   font-size: 32px;
   background-color: $color-main;
   color: $color-txt--white;
@@ -150,7 +150,8 @@
   width: 100%;
   margin: 50px auto 0;
   background-color: #FFF;
-  border-top: solid 5px $color-btn--blue;
+  border-top: solid 5px $color-main;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
   &--nbg {
     max-width: 1024px;
     width: 100%;
@@ -162,7 +163,7 @@
     padding-bottom: 15px;
     line-height: 40px;
     font-size: 24px;
-    color: $color-btn--blue;
+    color: $color-main;
   }
   &__body {
     width: 95%;
@@ -174,7 +175,7 @@
   width: 100%;
   &__th {
     padding: 10px;
-    background-color: $color-btn--blue;
+    background-color: $color-th;
     color: $color-txt--white;
     &--center {
       text-align: center;

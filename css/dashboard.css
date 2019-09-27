@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: center;
   width: 30%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
 }
 .nav__item:hover {
   cursor: pointer;
