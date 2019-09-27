@@ -9,83 +9,76 @@
 .header {
   display: flex;
   position: fixed;
+  justify-content: space-between;
   width: 100%;
+  height: 60px;
   background-color: #fff;
   box-shadow: 0px 5px 3px -3px rgba(0, 0, 0, 0.1);
-  list-style: none;
   z-index: 1;
 }
-.header__logo {
-  margin-right: auto;
-}
-.header__logo a {
-  display: block;
-}
-.header__logo img {
-  display: block;
-  height: 60px;
-}
-.header__nav {
-  display: flex;
-}
-.header__nav-item {
+
+.logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding: 0 1em;
+}
+.logo__link {
+  text-decoration: none;
+}
+.logo__title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-trigger {
+  display: flex;
+  align-items: center;
+}
+.nav-trigger__item {
+  display: flex;
+  align-items: center;
   position: relative;
   height: 60px;
   margin-right: 15px;
-  list-style: none;
 }
-.header__nav-item:hover .header__dropDown {
+.nav-trigger__item:hover .drop-down {
   display: block;
-  overflow: hidden;
-  position: absolute;
-  top: 60px;
-  right: 0;
-  width: 150px;
-  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  font-size: 14px;
 }
-.header__nav-item--private {
-  display: block;
+.nav-trigger__icon {
   width: 30px;
   height: 30px;
   object-fit: scale-down;
 }
-.header__dropDown {
+
+.drop-down {
   display: none;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  min-width: 155px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1);
+  list-style: none;
 }
-.header__dropDown-item {
-  display: block;
-  padding-left: 15px;
-  line-height: 40px;
-  color: #333;
-  text-decoration: none;
+.drop-down__item {
+  padding: 1em;
 }
-.header__dropDown-item:hover {
-  background: #019cd0;
+.drop-down__item:hover {
+  background: #edf2fa;
   color: #fff;
 }
-.header__dropDown-item:hover a {
-  color: #fff;
-}
-.header__dropDown-item a {
-  display: block;
+.drop-down__item a {
   text-decoration: none;
-  color: #333;
 }
-.header__dropDown-item--userName {
-  padding-left: 0;
-  line-height: 50px;
+.drop-down__item--user-name {
+  padding: .5em 1em;
   text-align: center;
   font-weight: bold;
-  color: #689ACA;
+  color: #13cec5;
 }
-.header__dropDown-item--userName:hover {
+.drop-down__item--user-name:hover {
   background: none;
-  color: #689ACA;
+  color: #13cec5;
 }
 
 /*===============================

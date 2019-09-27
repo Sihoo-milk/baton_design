@@ -17,6 +17,7 @@
 * {
   font-size: 16px;
   font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif;
+  letter-spacing: 0.05em;
   color: $color-txt;
 }
 .sp-none {
@@ -43,7 +44,6 @@
   text-align: center;
   border: none;
   border-radius: 2px;
-  letter-spacing: 0.05em;
   font-size: 1.2em;
   color: $color-txt--white;
   cursor: pointer;
