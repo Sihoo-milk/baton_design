@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*===============================
+
+　PC
+
+　　1.common
+　　2.conditional
+　　3.result
+
+================================*/
+/*
+　1.common
+================================*/
+.pullDown {
+  margin: .5em auto; }
+
+.txtField {
+  margin: .5em auto; }
+
+/*
+　2.conditional
+================================*/
+.conditional__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none; }
+.conditional__list__item {
+  width: 50%; }
+.conditional__list__item:nth-child(odd) {
+  padding: 15px 30px 15px 0; }
+.conditional__list__item:nth-child(even) {
+  padding: 15px 0 15px 30px; }
+.conditional__label {
+  display: block;
+  padding: .25em .25em .25em .75em;
+  border-left: 6px solid #0096DE; }
+.conditional__years {
+  display: flex;
+  align-items: center;
+  justify-content: left; }
+.conditional__years--txt {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  margin: .5em auto;
+  padding: 0 8px; }
+.conditional__skill {
+  display: flex;
+  align-items: center;
+  justify-content: left; }
+.conditional__skill--btn {
+  width: 70px;
+  height: 35px;
+  margin: .5em auto .5em 5px;
+  padding: 0 8px;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  background: #fff;
+  color: #333; }
+.conditional__btn {
+  padding: 15px 0;
+  text-align: right; }
+
+/*
+　3.result
+================================*/
+.result__list {
+  list-style: none; }
+.result__item {
+  padding: 15px 0; }
+.result__item__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  list-style: none; }
+.result__item-detail {
+  width: calc(33.3% - 10px); }
+.result__item-detail-icon--img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  object-fit: scale-down;
+  margin: 0 auto; }
+.result__item-detail-name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+.result__item-detail-name--jp {
+  font-size: 20px; }
+.result__item-detail-name--en {
+  font-size: 14px; }
+.result__item-detail-employee {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 14px; }
+.result__item-detail-mail {
+  width: 18px; }
+
+.pager__list {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  list-style: none; }
+.pager__list-item {
+  width: 50px;
+  height: 50px;
+  margin: 0 2px;
+  padding: 0;
+  background: #0096DE;
+  text-align: center; }
+.pager__list-item a {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-decoration: none; }
+.pager__list-item a:hover, .pager__list-item a.active {
+  background: #99CCFF;
+  color: #333; }
+.pager__list-item a span {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff; }
+
+/*===============================
+
+　SP
+
+　　1.conditional
+　　2.result
+
+================================*/
+@media only screen and (max-width: 767px) {
+  /*
+  　1.conditional
+  ================================*/
+  .conditional__list {
+    display: block; }
+  .conditional__list__item {
+    width: 100%; }
+  .conditional__list__item:nth-child(odd) {
+    padding: 15px 0; }
+  .conditional__list__item:nth-child(even) {
+    padding: 15px 0; }
+
+  /*
+  　2.result
+  ================================*/
+  .result__item {
+    padding: 20px 30px; }
+  .result__item-detail:nth-child(odd) {
+    width: 103px; }
+  .result__item-detail-name {
+    padding-bottom: 10px; }
+  .result__item-detail-mail {
+    display: block;
+    width: 32px;
+    object-fit: scale-down;
+    padding-top: 10px; }
+
+  .pager__list {
+    padding: 15px 30px; }
+  .pager__list-item {
+    display: none; }
+  .pager__list-item.pre, .pager__list-item.next {
+    display: block;
+    width: 100%;
+    text-align: center; }
+  .pager__list-item.pre a, .pager__list-item.next a {
+    width: 100%;
+    text-align: center; }
+  .pager__list-item.pre span::after {
+    content: "　前の10件へ"; }
+  .pager__list-item.next span::before {
+    content: "次の10件へ　"; } }
+
+/*# sourceMappingURL=memberlist.css.map */

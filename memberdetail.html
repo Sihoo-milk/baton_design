@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>プロフィール詳細 | BizProfile</title>
+  <link rel="stylesheet" href="/css/ress.css">
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/memberdetail.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+</head>
+<body>
+  <header id="header" class="header"></header>
+
+  <div class="main">
+    <h1 class="title">プロフィール詳細</h1>
+
+    <div class="anchor">
+      <ul class="anchor__list">
+        <li class="anchor__list__item">
+          <a href="" class="anchor__list__item__link">
+            <span>基本情報</span>
+            <i class="fas fa-arrow-alt-circle-down"></i>
+          </a>
+        </li>
+        <li class="anchor__list__item">
+          <a href="" class="anchor__list__item__link">
+            <span>管理者情報</span>
+            <i class="fas fa-arrow-alt-circle-down"></i>
+          </a>
+        </li>
+        <li class="anchor__list__item">
+          <a href="" class="anchor__list__item__link">
+            <span>資格情報</span>
+            <i class="fas fa-arrow-alt-circle-down"></i>
+          </a>
+        </li>
+        <li class="anchor__list__item">
+          <a href="" class="anchor__list__item__link">
+            <span>参加プロジェクト</span>
+            <i class="fas fa-arrow-alt-circle-down"></i>
+          </a>
+        </li>
+        <li class="anchor__list__item">
+          <a href="" class="anchor__list__item__link">
+            <span>スキル情報</span>
+            <i class="fas fa-arrow-alt-circle-down"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contents">
+      <h2 class="contents__title">基本情報</h2>
+      <div class="contents__body">
+        <div class="basic__icon">
+          <img src="/images/img_icon_noimage.png" alt="アイコン" class="basic__icon__img">
+          <div class="basic__icon__btn">
+            <input type="submit" value="画像を変更" class="btn btn--blue fas">
+          </div>
+        </div>
+      </div>
+      <table class="contents__body">
+        <tr class="table__tr">
+          <th class="table__th table__th--left">社員番号</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">氏名</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+            <input type="text" class="txtField space-left">
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">氏名(カナ)</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+            <input type="text" class="txtField space-left">
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">氏名(英字)</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+            <input type="text" class="txtField space-left">
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">メールアドレス</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">パスワード</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">電話番号</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">生年月日</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">性別</th>
+          <td class="table__td table__td--flex">
+            <label class="radio radio--two">
+              <input type="radio" name="sex"" class="radio-btn">
+              <span class="radio-fontas">男性</span>
+            </label>
+            <label class="radio radio--two">
+              <input type="radio" name="sex" class="radio-btn">
+              <span class="radio-fontas">女性</span>
+            </label>
+            <span class="asterisk sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">国籍</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">エレクス入社年月日</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">業界入社年月日</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">住所</th>
+          <td class="table__td table__td--flex">
+            <div class="pullDown">
+              <select class="pullDown__list">
+                <option value="北海道">北海道</option>
+                <option value="青森">青森</option>
+                <option value="沖縄">沖縄</option>
+              </select>
+            </div>
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">住所(市区町村以降)</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">交通機関</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">最寄駅</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">学校名</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">学部学科名</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">自己PR</th>
+          <td class="table__td table__td--flex">
+            <textarea class="txtArea"></textarea>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">部署</th>
+          <td class="table__td table__td--flex">
+            <div class="pullDown">
+              <select class="pullDown__list">
+                <option value="北海道">北海道</option>
+                <option value="青森">青森</option>
+                <option value="沖縄">沖縄</option>
+              </select>
+            </div>
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">拠点</th>
+          <td class="table__td table__td--flex">
+            <div class="pullDown">
+              <select class="pullDown__list">
+                <option value="北海道">北海道</option>
+                <option value="青森">青森</option>
+                <option value="沖縄">沖縄</option>
+              </select>
+            </div>
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left asterisk">役職</th>
+          <td class="table__td table__td--flex">
+            <div class="pullDown">
+              <select class="pullDown__list">
+                <option value="北海道">北海道</option>
+                <option value="青森">青森</option>
+                <option value="沖縄">沖縄</option>
+              </select>
+            </div>
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="contents">
+      <h2 class="contents__title">管理者情報</h2>
+      <table class="contents__body">
+        <tr class="table__tr">
+          <th class="table__th table__th--left">社員ステータス</th>
+          <td class="table__td table__td--flex">
+            <label class="radio radio--three">
+              <input type="radio" name="status" class="radio-btn">
+              <span class="radio-fontas">通常</span>
+            </label>
+            <label class="radio radio--three">
+              <input type="radio" name="status" class="radio-btn">
+              <span class="radio-fontas">休職中</span>
+            </label>
+            <label class="radio radio--three">
+              <input type="radio" name="status" class="radio-btn">
+              <span class="radio-fontas">退職</span>
+            </label>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">社員管理権限</th>
+          <td class="table__td table__td--flex">
+            <label class="radio radio--two">
+              <input type="radio" name="management" class="radio-btn">
+              <span class="radio-fontas">あり</span>
+            </label>
+            <label class="radio radio--two">
+              <input type="radio" name="management" class="radio-btn">
+              <span class="radio-fontas">なし</span>
+            </label>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">参加プロジェクト参照権限</th>
+          <td class="table__td table__td--flex">
+            <label class="radio radio--two">
+              <input type="radio" name="project" class="radio-btn">
+              <span class="radio-fontas">あり</span>
+            </label>
+            <label class="radio radio--two">
+              <input type="radio" name="project" class="radio-btn">
+              <span class="radio-fontas">なし</span>
+            </label>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">スキルシート情報参照権限</th>
+          <td class="table__td table__td--flex">
+            <label class="radio radio--two">
+              <input type="radio" name="skillSheet" class="radio-btn">
+              <span class="radio-fontas">あり</span>
+            </label>
+            <label class="radio radio--two">
+              <input type="radio" name="skillSheet" class="radio-btn">
+              <span class="radio-fontas">なし</span>
+            </label>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--left">保有資格情報参照権限</th>
+          <td class="table__td table__td--flex">
+            <label class="radio radio--two">
+              <input type="radio" name="qualification" class="radio-btn">
+              <span class="radio-fontas">あり</span>
+            </label>
+            <label class="radio radio--two">
+              <input type="radio" name="qualification" class="radio-btn">
+              <span class="radio-fontas">なし</span>
+            </label>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="contents--nbg">
+      <div class="position position--both">
+        <input type="submit" value="前へ戻る" class="btn btn--white fas">
+        <input type="submit" value="&#xf2f1; 更新" class="position--both__btn btn btn--green fas">
+      </div>
+    </div>
+
+    <div class="contents">
+      <h2 class="contents__title">資格情報</h2>
+      <div class="sp-none">
+        <div class="contents__body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="table__th">資格名称</th>
+                <th class="table__th">取得日</th>
+                <th class="table__th">備考</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="table__td">ITパスポート</td>
+                <td class="table__td">2017/08/01</td>
+                <td class="table__td table__td--left">大学時代に取得</td>
+              </tr>
+              <tr>
+                <td class="table__td">基本情報技術者試験</td>
+                <td class="table__td">2017/08/01</td>
+                <td class="table__td table__td--left">社内業務用に取得</td>
+              </tr>
+              <tr>
+                <td class="table__td">Java Silver</td>
+                <td class="table__td">2017/08/01</td>
+                <td class="table__td table__td--left">社内業務用に取得</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pc-none">
+        <div class="contents__body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th colspan="2" class="table__th">ITパスポート</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="table__th">取得日</th>
+                <td class="table__td">2018/5/26</td>
+              </tr>
+              <tr>
+                <th class="table__th">備考</th>
+                <td class="table__td table__td--left">大学時代に取得</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="contents__body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th colspan="2" class="table__th">基本情報技術者試験</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="table__th">取得日</th>
+                <td class="table__td">2018/3/1</td>
+              </tr>
+              <tr>
+                <th class="table__th">備考</th>
+                <td class="table__td table__td--left">社内業務用に取得</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="contents__body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th colspan="2" class="table__th">Java Silver</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="table__th">取得日</th>
+                <td class="table__td">2017/3/1</td>
+              </tr>
+              <tr>
+                <th class="table__th">備考</th>
+                <td class="table__td table__td--left">社内業務用に取得</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="contents">
+      <h2 class="contents__title">参加プロジェクト</h2>
+      <div class="sp-none">
+        <div class="contents__body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="table__th">プロジェクト名称</th>
+                <th class="table__th">開発期間(参加期間)</th>
+                <th class="table__th">人数規模</th>
+                <th class="table__th">役割</th>
+                <th class="table__th">開発工程</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="table__td">プロジェクトA</td>
+                <td class="table__td">
+                  <span>2017/08/01</span>
+                  <span>〜</span>
+                  <span>2017/08/31</span>
+                  <span>(1ヶ月)</span>
+                </td>
+                <td class="table__td">16</td>
+                <td class="table__td">SE</td>
+                <td class="table__td">基本設計</td>
+              </tr>
+              <tr>
+                <td class="table__td">プロジェクトB</td>
+                <td class="table__td">
+                  <span>2017/08/01</span>
+                  <span>〜</span>
+                  <span>2017/08/31</span>
+                  <span>(1ヶ月)</span>
+                </td>
+                <td class="table__td">16</td>
+                <td class="table__td">PM</td>
+                <td class="table__td">調査・要件定義</td>
+              </tr>
+              <tr>
+                <td class="table__td">プロジェクトC</td>
+                <td class="table__td">
+                  <span>2017/08/01</span>
+                  <span>〜</span>
+                  <span>2017/08/31</span>
+                  <span>(1ヶ月)</span>
+                </td>
+                <td class="table__td">16</td>
+                <td class="table__td">SE</td>
+                <td class="table__td">調査・要件定義</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pc-none">
+        <div class="contents__body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th colspan="2" class="table__th">プロジェクトA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="table__th">開発期間<br>(参加期間)</th>
+                <td class="table__td">
+                  <span>2017/08/01</span>
+                  <span>～</span>
+                  <span>2017/08/31</span>
+                  <span>(1ヶ月)</span>
+                </td>
+              </tr>
+              <tr>
+                <th class="table__th">人数規模</th>
+                <td class="table__td">16</td>
+              </tr>
+              <tr>
+                <th class="table__th">役割</th>
+                <td class="table__td">SE</td>
+              </tr>
+              <tr>
+                <th class="table__th">開発工程</th>
+                <td class="table__td">基本設計</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="contents__body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th colspan="2" class="table__th">プロジェクトB</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="table__th">開発期間<br>(参加期間)</th>
+                <td class="table__td">
+                  <span>2017/08/01</span>
+                  <span>～</span>
+                  <span>2017/08/31</span>
+                  <span>(1ヶ月)</span>
+                </td>
+              </tr>
+              <tr>
+                <th class="table__th">人数規模</th>
+                <td class="table__td">16</td>
+              </tr>
+              <tr>
+                <th class="table__th">役割</th>
+                <td class="table__td">PM</td>
+              </tr>
+              <tr>
+                <th class="table__th">開発工程</th>
+                <td class="table__td">調査・要件定義</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="contents__body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th colspan="2" class="table__th">プロジェクトC</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="table__th">開発期間<br>(参加期間)</th>
+                <td class="table__td">
+                  <span>2017/08/01</span>
+                  <span>～</span>
+                  <span>2017/08/31</span>
+                  <span>(1ヶ月)</span>
+                </td>
+              </tr>
+              <tr>
+                <th class="table__th">人数規模</th>
+                <td class="table__td">16</td>
+              </tr>
+              <tr>
+                <th class="table__th">役割</th>
+                <td class="table__td">PM</td>
+              </tr>
+              <tr>
+                <th class="table__th">開発工程</th>
+                <td class="table__td">調査・要件定義</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="contents--nbg">
+      <div class="position position--right">
+        <input type="submit" value="ユーザ情報を削除" class="btn btn--red fas">
+      </div>
+    </div>
+  </div>
+
+  <div id="page_top" class="page_top"><a href="#"></a></div>
+
+  <footer id="footer" class="footer"></footer>
+
+  <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+</body>
+</html>

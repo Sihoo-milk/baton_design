@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ダッシュボード | BizProfile</title>
+  <link rel="stylesheet" href="/css/ress.css">
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+</head>
+<body>
+  <header id="header" class="header"></header>
+
+  <div class="main">
+    <h1 class="title">ダッシュボード</h1>
+
+    <nav class="menu">
+      <ul class="menu__nav">
+        <li class="menu__nav-item">
+          <a href="/memberdetail.html">
+            <img src="/images/umerin_B-20.jpg" alt="マイプロフィール" class="menu__nav-item--myIcon">
+            <span class="menu__nav-item-text">マイプロフィール</span>
+          </a>
+        </li>
+        <li class="menu__nav-item">
+          <a href="/memberlist.html">
+            <img src="/images/img_icon_member-64.png" alt="プロフィール一覧">
+            <span class="menu__nav-item-text">プロフィール一覧</span>
+          </a>
+        </li>
+        <li class="menu__nav-item">
+          <a href="">
+            <img src="/images/img_icon_register-white.png" alt="新規登録">
+            <span class="menu__nav-item-text">新規登録</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="contents">
+      <h2 class="contents__title">プロフィール更新情報</h2>
+      <div class="contents__body">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="table__th">更新日</th>
+              <th class="table__th">更新者</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table__td">1996年02月02日</td>
+              <td class="table__td">10001：田口有海</td>
+            </tr>
+            <tr>
+              <td class="table__td">2019年12月31日</td>
+              <td class="table__td">10002：安座間みき</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="contents">
+      <h2 class="contents__title">お知らせ一覧</h2>
+      <div class="contents__body">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="table__th ">掲載日</th>
+              <th class="table__th">内容</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table__td">1996年02月02日</td>
+              <td class="table__td table__td--left">ダッシュボード画面に「お知らせ情報」欄追加</td>
+            </tr>
+            <tr>
+              <td class="table__td">2019年12月31日</td>
+              <td class="table__td table__td--left">プロフィール詳細画面のバグ修正</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="page_top" class="page_top"><a href="#"></a></div>
+
+  <footer id="footer" class="footer"></footer>
+
+  <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+</body>
+</html>

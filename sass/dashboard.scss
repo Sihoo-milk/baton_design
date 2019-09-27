@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import "color";
+
+/*===============================
+
+　PC
+
+　　1.common
+　　2.menu
+
+================================*/
+
+/*
+　1.common
+================================*/
+.table {
+  &__tbody {
+    &--subject {
+      text-align: left;
+    }
+  }
+}
+
+/*
+　2.menu
+================================*/
+.menu {
+  max-width: 1024px;
+  width: 100%;
+  margin: 50px auto 0;
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30%;
+      background-color: $color-accent;
+      &:hover {
+        background: rgba(104, 154, 202, .5);
+      }
+      a {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+      }
+      img {
+        display: block;
+        width: 80px;
+        height: 80px;
+        object-fit: scale-down;
+        margin: 20px auto 10px;
+      }
+      &--myIcon {
+        border-radius: 50%;
+      }
+      &-text {
+        display: block;
+        margin: 0 auto 20px;
+        text-align: center;
+        font-weight: bold;
+        color: $color-txt--white;
+      }
+    }
+  }
+}
+
+/*===============================
+
+　Tablet
+
+　　1.menu
+
+================================*/
+@media only screen and (max-width: 1024px) {
+
+  /*
+  　1.menu
+  ================================*/
+  .menu {
+    width: 95%;
+  }
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>プロフィール一覧 | BizProfile</title>
+  <link rel="stylesheet" href="/css/ress.css">
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/memberlist.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+</head>
+<body>
+  <header id="header" class="header"></header>
+
+  <div class="main">
+    <h1 class="title">プロフィール一覧</h1>
+
+    <div class="contents">
+      <h2 class="contents__title">検索条件</h2>
+      <div class="contents__body">
+        <form>
+          <ul class="conditional__list">
+            <li class="conditional__list__item">
+              <label class="conditional__label">所属</label>
+              <div class="pullDown">
+                <select class="pullDown__list">
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+            </li>
+            <li class="conditional__list__item">
+              <label class="conditional__label">拠点</label>
+              <div class="pullDown">
+                <select class="pullDown__list">
+                  <option value="1">kodera</option>
+                  <option value="2">hime</option>
+                  <option value="3">is</option>
+                  <option value="4">mochi</option>
+                </select>
+              </div>
+            </li>
+            <li class="conditional__list__item">
+              <label class="conditional__label">社員名</label>
+              <input type="text" class="txtField">
+            </li>
+            <li class="conditional__list__item">
+              <label class="conditional__label">実施年数</label>
+              <div class="conditional__years">
+                <input type="text" class="txtField">
+                <div class="conditional__years--txt">年</div>
+                <div class="conditional__years--txt">ー</div>
+                <input type="text" class="txtField">
+                <div class="conditional__years--txt">年</div>
+              </div>
+            </li>
+            <li class="conditional__list__item">
+              <label class="conditional__label">役割</label>
+              <div class="pullDown">
+                <select class="pullDown__list">
+                  <option value="1">kodera</option>
+                  <option value="2">hime</option>
+                  <option value="3">is</option>
+                  <option value="4">mochi</option>
+                </select>
+              </div>
+            </li>
+            <li class="conditional__list__item">
+              <label class="conditional__label">資格</label>
+              <input type="text" class="txtField">
+            </li>
+            <li class="conditional__list__item">
+              <label class="conditional__label">言語</label>
+              <input type="text" class="txtField">
+            </li>
+            <li class="conditional__list__item">
+              <label class="conditional__label">参画工程</label>
+              <input type="text" class="txtField">
+            </li>
+            <li class="conditional__list__item">
+              <label class="conditional__label">スキル</label>
+              <div class="conditional__skill">
+                <input type="text" class="txtField">
+                <input type="submit" value="入力" class="conditional__skill--btn">
+              </div>
+            </li>
+          </ul>
+          <div class="conditional__btn">
+            <input type="submit" value="&#xf002; 検索" class="btn btn--green fas">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="contents">
+      <h2 class="contents__title">検索結果</h2>
+      <div class="contents__body">
+        <ul class="result__list">
+          <li class="result__item">
+            <div class="sp-none">
+              <ul class="result__item__list">
+                <li class="result__item-detail">
+                  <img src="/images/umerin_B-20.jpg" alt="社員画像" class="result__item-detail-icon--img">
+                </li>
+                <li class="result__item-detail result__item-detail-name">
+                  <div class="result__item-detail-name--jp">前野&emsp;友宏</div>
+                  <div class="result__item-detail-name--en">Maeno&emsp;Tomohiro</div>
+                </li>
+                <li class="result__item-detail result__item-detail-employee">
+                  <div>
+                    <span>社員番号&emsp;</span>
+                    <span>10296</span>
+                  </div>
+                  <div>
+                    <span>入社&emsp;&emsp;&emsp;</span>
+                    <span>2016/4/1</span>
+                  </div>
+                  <img src="/images/img_icon_mail.png" alt="メールアドレス" class="result__item-detail-mail">
+                </li>
+              </ul>
+            </div>
+            <div class="pc-none">
+              <ul class="result__item__list">
+                <li class="result__item-detail">
+                  <img src="/images/umerin_B-20.jpg" alt="社員画像" class="result__item-detail-icon--img">
+                  <img src="/images/img_icon_mail.png" alt="メールアドレス" class="result__item-detail-mail">
+                </li>
+                <li class="result__item-detail">
+                  <div class="result__item-detail-name">
+                    <div class="result__item-detail-name--jp">前野&emsp;友宏</div>
+                    <div class="result__item-detail-name--en">Maeno&emsp;Tomohiro</div>
+                  </div>
+                  <div>
+                    <div>
+                      <span>社員番号&emsp;</span>
+                      <span>10296</span>
+                    </div>
+                    <div>
+                      <span>入社&emsp;&emsp;&emsp;</span>
+                      <span>2016/4/1</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="result__item">
+            <div class="sp-none">
+              <ul class="result__item__list">
+                <li class="result__item-detail">
+                  <img src="/images/umerin_B-20.jpg" alt="社員画像" class="result__item-detail-icon--img">
+                </li>
+                <li class="result__item-detail result__item-detail-name">
+                  <div class="result__item-detail-name--jp">小寺&emsp;ひめ</div>
+                  <div class="result__item-detail-name--en">Kodera&emsp;Hime</div>
+                </li>
+                <li class="result__item-detail result__item-detail-employee">
+                  <div>
+                    <span>社員番号&emsp;</span>
+                    <span>10299</span>
+                  </div>
+                  <div>
+                    <span>入社&emsp;&emsp;&emsp;</span>
+                    <span>2016/4/1</span>
+                  </div>
+                  <img src="/images/img_icon_mail.png" alt="メールアドレス" class="result__item-detail-mail">
+                </li>
+              </ul>
+            </div>
+            <div class="pc-none">
+              <ul class="result__item__list">
+                <li class="result__item-detail">
+                  <img src="/images/umerin_B-20.jpg" alt="社員画像" class="result__item-detail-icon--img">
+                  <img src="/images/img_icon_mail.png" alt="メールアドレス" class="result__item-detail-mail">
+                </li>
+                <li class="result__item-detail">
+                  <div class="result__item-detail-name">
+                    <div class="result__item-detail-name--jp">小寺&emsp;ひめ</div>
+                    <div class="result__item-detail-name--en">Kodera&emsp;Hime</div>
+                  </div>
+                  <div>
+                    <div>
+                      <span>社員番号&emsp;</span>
+                      <span>10299</span>
+                    </div>
+                    <div>
+                      <span>入社&emsp;&emsp;&emsp;</span>
+                      <span>2016/4/1</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="result__item">
+            <div class="sp-none">
+              <ul class="result__item__list">
+                <li class="result__item-detail">
+                  <img src="/images/umerin_B-20.jpg" alt="社員画像" class="result__item-detail-icon--img">
+                </li>
+                <li class="result__item-detail result__item-detail-name">
+                  <div class="result__item-detail-name--jp">三井所&emsp;正美マリー</div>
+                  <div class="result__item-detail-name--en">Miisyo&emsp;MasamiMarry</div>
+                </li>
+                <li class="result__item-detail result__item-detail-employee">
+                  <div>
+                    <span>社員番号&emsp;</span>
+                    <span>知らねー</span>
+                  </div>
+                  <div>
+                    <span>入社&emsp;&emsp;&emsp;</span>
+                    <span>2018/4/1</span>
+                  </div>
+                  <img src="/images/img_icon_mail.png" alt="メールアドレス" class="result__item-detail-mail">
+                </li>
+              </ul>
+            </div>
+            <div class="pc-none">
+              <ul class="result__item__list">
+                <li class="result__item-detail">
+                  <img src="/images/umerin_B-20.jpg" alt="社員画像" class="result__item-detail-icon--img">
+                  <img src="/images/img_icon_mail.png" alt="メールアドレス" class="result__item-detail-mail">
+                </li>
+                <li class="result__item-detail">
+                  <div class="result__item-detail-name">
+                    <div class="result__item-detail-name--jp">三井所&emsp;正美マリー</div>
+                    <div class="result__item-detail-name--en">Miisyo&emsp;MasamiMarry</div>
+                  </div>
+                  <div>
+                    <div>
+                      <span>社員番号&emsp;</span>
+                      <span>知らねー</span>
+                    </div>
+                    <div>
+                      <span>入社&emsp;&emsp;&emsp;</span>
+                      <span>2018/4/1</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="contents__body">
+        <ul class="pager__list">
+          <li class="pager__list-item pre"><a href="#"><span>‹</span></a></li>
+          <li class="pager__list-item"><a href="#" class="active"><span>1</span></a></li>
+          <li class="pager__list-item"><a href="#"><span>2</span></a></li>
+          <li class="pager__list-item"><a href="#"><span>3</span></a></li>
+          <li class="pager__list-item"><a href="#"><span>4</span></a></li>
+          <li class="pager__list-item"><a href="#"><span>5</span></a></li>
+          <li class="pager__list-item next"><a href="#"><span>›</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="page_top" class="page_top"><a href="#"></a></div>
+
+  <footer id="footer" class="footer"></footer>
+
+  <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+</body>
+</html>
