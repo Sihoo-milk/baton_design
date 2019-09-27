@@ -34,7 +34,7 @@
   text-align: center;
   line-height: 102px;
   font-size: 32px;
-  background-color: #0096DE;
+  background-color: #13cec5;
   color: #fff;
 }
 
@@ -352,7 +352,7 @@
   .table__th--left {
     width: 100%;
     background: #fff;
-    color: #0096DE;
+    color: #13cec5;
   }
   .table__td--flex {
     padding: 0 10px 10px;

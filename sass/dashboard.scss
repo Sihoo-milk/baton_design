@@ -5,66 +5,62 @@
 
 　PC
 
-　　1.common
-　　2.menu
+　　1.nav
 
 ================================*/
 
 /*
-　1.common
+　1.nav
 ================================*/
-.table {
-  &__tbody {
-    &--subject {
-      text-align: left;
-    }
-  }
-}
-
-/*
-　2.menu
-================================*/
-.menu {
+.nav {
   max-width: 1024px;
   width: 100%;
   margin: 50px auto 0;
-  &__nav {
+  &__list {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    &-item {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30%;
-      background-color: $color-accent;
-      &:hover {
-        background: rgba(104, 154, 202, .5);
-      }
-      a {
-        width: 100%;
-        height: 100%;
-        text-decoration: none;
-      }
-      img {
-        display: block;
-        width: 80px;
-        height: 80px;
-        object-fit: scale-down;
-        margin: 20px auto 10px;
-      }
-      &--myIcon {
-        border-radius: 50%;
-      }
-      &-text {
-        display: block;
-        margin: 0 auto 20px;
-        text-align: center;
-        font-weight: bold;
-        color: $color-txt--white;
-      }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    &:hover {
+      cursor: pointer;
     }
+    &--green {
+      background-color: $color-nav--green;
+    }
+    &--pink {
+      background-color: $color-nav--pink;
+    }
+    &--purple {
+      background-color: $color-nav--purple;
+    }
+  }
+  &__link {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+  }
+  &__icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: scale-down;
+    margin: 20px auto 10px;
+    &--my {
+      border-radius: 50%;
+    }
+  }
+  &__title {
+    display: block;
+    margin: 0 auto 20px;
+    text-align: center;
+    font-weight: bold;
+    color: $color-txt--white;
   }
 }
 
@@ -72,7 +68,7 @@
 
 　Tablet
 
-　　1.menu
+　　1.nav
 
 ================================*/
 @media only screen and (max-width: 1024px) {
@@ -80,7 +76,7 @@
   /*
   　1.menu
   ================================*/
-  .menu {
+  .nav {
     width: 95%;
   }
 }
