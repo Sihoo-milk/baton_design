@@ -49,6 +49,9 @@
     height: 30px;
     object-fit: scale-down;
   }
+  &__arrow {
+    margin-left: 5px;
+  }
 }
 .drop-down {
   display: none;
