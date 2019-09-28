@@ -63,15 +63,9 @@
   box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1);
   list-style: none;
 }
-.drop-down__item {
-  padding: 1em;
-}
 .drop-down__item:hover {
   background: #edf2fa;
   color: #fff;
-}
-.drop-down__item a {
-  text-decoration: none;
 }
 .drop-down__item--user-name {
   padding: .5em 1em;
@@ -82,6 +76,14 @@
 .drop-down__item--user-name:hover {
   background: none;
   color: #13cec5;
+}
+.drop-down__link {
+  display: block;
+  text-decoration: none;
+}
+.drop-down__txt {
+  display: block;
+  padding: 1em;
 }
 
 /*===============================

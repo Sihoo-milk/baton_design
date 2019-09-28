@@ -63,13 +63,9 @@
   box-shadow: 0 1px 5px 1px rgba(0,0,0,0.1);
   list-style: none;
   &__item {
-    padding: 1em;
     &:hover {
       background: $color-hover;
       color: $color-txt--white;
-    }
-    a {
-      text-decoration: none;
     }
     &--user-name {
       padding: .5em 1em;
@@ -81,6 +77,14 @@
         color: $color-main;
       }
     }
+  }
+  &__link {
+    display: block;
+    text-decoration: none;
+  }
+  &__txt {
+    display: block;
+    padding: 1em;
   }
 }
 
