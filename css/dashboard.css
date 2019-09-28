@@ -47,15 +47,12 @@
 }
 .nav-card__icon {
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   object-fit: scale-down;
   margin: 20px auto 10px;
 }
 .nav-card__icon--my {
-  width: 60px;
-  height: 60px;
-  margin: 33px auto 20px;
   border-radius: 50%;
 }
 .nav-card__title {
