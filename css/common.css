@@ -351,6 +351,9 @@
     display: flex;
     flex-direction: column;
   }
+  .table__th {
+    width: 30%;
+  }
   .table__th--txt-left {
     width: 100%;
     background: #fff;
