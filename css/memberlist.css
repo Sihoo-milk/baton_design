@@ -114,7 +114,7 @@
   text-decoration: none;
 }
 .pager__list-item a:hover, .pager__list-item a.active {
-  background: #99CCFF;
+  background: #23a4b0;
   color: #333;
 }
 .pager__list-item a span {

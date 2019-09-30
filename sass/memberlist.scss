@@ -118,7 +118,7 @@
         text-decoration: none;
         &:hover,
         &.active{
-          background: #99CCFF;
+          background: $color-main-hover;
           color: #333;
         }
         span {
