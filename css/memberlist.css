@@ -76,21 +76,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-.result__item-detail-name--jp {
   font-size: 20px;
-}
-.result__item-detail-name--en {
-  font-size: 14px;
 }
 .result__item-detail-employee {
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-size: 14px;
-}
-.result__item-detail-mail {
-  width: 18px;
 }
 
 .pager__list {
@@ -159,12 +151,6 @@
   }
   .result__item-detail-name {
     padding-bottom: 10px;
-  }
-  .result__item-detail-mail {
-    display: block;
-    width: 32px;
-    object-fit: scale-down;
-    padding-top: 10px;
   }
 
   .pager__list {

@@ -79,21 +79,13 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        &--jp {
-          font-size: 20px;
-        }
-        &--en {
-          font-size: 14px;
-        }
+        font-size: 20px;
       }
       &-employee {
         display: flex;
         justify-content: center;
         flex-direction: column;
         font-size: 14px;
-      }
-      &-mail {
-        width: 18px;
       }
     }
   }
@@ -171,12 +163,6 @@
         }
         &-name {
           padding-bottom: 10px;
-        }
-        &-mail {
-          display: block;
-          width: 32px;
-          object-fit: scale-down;
-          padding-top: 10px;
         }
       }
     }
