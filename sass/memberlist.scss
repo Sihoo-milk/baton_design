@@ -44,33 +44,6 @@
     padding: .25em .25em .25em .75em;
     border-left: 6px solid $color-main;
   }
-  &__years {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    &--txt {
-      display: flex;
-      align-items: center;
-      height: 35px;
-      margin: .5em auto;
-      padding: 0 8px;
-    }
-  }
-  &__skill {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    &--btn {
-      width: 70px;
-      height: 35px;
-      margin: .5em auto .5em 5px;
-      padding: 0 8px;
-      border: 1px solid #bbb;
-      border-radius: 2px;
-      background: #fff;
-      color: #333;
-    }
-  }
   &__btn {
     padding: 15px 0;
     text-align: right;

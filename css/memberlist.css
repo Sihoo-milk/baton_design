@@ -41,33 +41,6 @@
   padding: .25em .25em .25em .75em;
   border-left: 6px solid #13cec5;
 }
-.conditional__years {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
-.conditional__years--txt {
-  display: flex;
-  align-items: center;
-  height: 35px;
-  margin: .5em auto;
-  padding: 0 8px;
-}
-.conditional__skill {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
-.conditional__skill--btn {
-  width: 70px;
-  height: 35px;
-  margin: .5em auto .5em 5px;
-  padding: 0 8px;
-  border: 1px solid #bbb;
-  border-radius: 2px;
-  background: #fff;
-  color: #333;
-}
 .conditional__btn {
   padding: 15px 0;
   text-align: right;
