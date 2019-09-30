@@ -194,7 +194,7 @@
 .table__th--center {
   text-align: center;
 }
-.table__th--left {
+.table__th--txt-left {
   min-width: 164px;
   width: 30%;
   text-align: left;
@@ -208,7 +208,7 @@
   display: flex;
   align-items: center;
 }
-.table__td--left {
+.table__td--txt-left {
   text-align: left;
 }
 
@@ -319,9 +319,6 @@
   }
   .radio--two {
     width: 50%;
-  }
-  .radio--three {
-    width: calc(100% / 3);
   }
   .radio-btn + .radio-fontas {
     display: flex;

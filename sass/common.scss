@@ -185,7 +185,7 @@
     &--center {
       text-align: center;
     }
-    &--left {
+    &--txt-left {
       min-width: 164px;
       width: 30%;
       text-align: left;
@@ -199,7 +199,7 @@
       display: flex;
       align-items: center;
     }
-    &--left {
+    &--txt-left {
       text-align: left;
     }
   }
@@ -308,9 +308,6 @@
     border-radius: 2px;
     &--two {
       width: 50%;
-    }
-    &--three {
-      width : calc(100% / 3);
     }
     &-btn {
       & + .radio-fontas {

@@ -31,22 +31,14 @@
       </div>
       <table class="contents__body">
         <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">ユーザ名</th>
+          <th class="table__th table__th--txt-left asterisk">ユーザ名</th>
           <td class="table__td table__td--flex">
             <input type="text" class="txtField">
             <span class="asterisk space-left sp-none">＊</span>
           </td>
         </tr>
         <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">氏名</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-            <input type="text" class="txtField space-left">
-            <span class="asterisk space-left sp-none">＊</span>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">氏名(カナ)</th>
+          <th class="table__th table__th--txt-left asterisk">氏名</th>
           <td class="table__td table__td--flex">
             <input type="text" class="txtField">
             <input type="text" class="txtField space-left">
@@ -54,21 +46,29 @@
           </td>
         </tr>
         <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">メールアドレス</th>
+          <th class="table__th table__th--txt-left asterisk">氏名(カナ)</th>
+          <td class="table__td table__td--flex">
+            <input type="text" class="txtField">
+            <input type="text" class="txtField space-left">
+            <span class="asterisk space-left sp-none">＊</span>
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <th class="table__th table__th--txt-left asterisk">メールアドレス</th>
           <td class="table__td table__td--flex">
             <input type="text" class="txtField">
             <span class="asterisk space-left sp-none">＊</span>
           </td>
         </tr>
         <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">パスワード</th>
+          <th class="table__th table__th--txt-left asterisk">パスワード</th>
           <td class="table__td table__td--flex">
             <input type="text" class="txtField">
             <span class="asterisk space-left sp-none">＊</span>
           </td>
         </tr>
         <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">性別</th>
+          <th class="table__th table__th--txt-left asterisk">性別</th>
           <td class="table__td table__td--flex">
             <label class="radio radio--two">
               <input type="radio" name="sex"" class="radio-btn">
@@ -82,7 +82,7 @@
           </td>
         </tr>
         <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">住所</th>
+          <th class="table__th table__th--txt-left asterisk">住所</th>
           <td class="table__td table__td--flex">
             <div class="pullDown">
               <select class="pullDown__list">
@@ -95,45 +95,9 @@
           </td>
         </tr>
         <tr class="table__tr">
-          <th class="table__th table__th--left">自己PR</th>
+          <th class="table__th table__th--txt-left">自己PR</th>
           <td class="table__td table__td--flex">
             <textarea class="txtArea"></textarea>
-          </td>
-        </tr>
-      </table>
-    </div>
-
-    <div class="contents">
-      <h2 class="contents__title">管理者情報</h2>
-      <table class="contents__body">
-        <tr class="table__tr">
-          <th class="table__th table__th--left">社員ステータス</th>
-          <td class="table__td table__td--flex">
-            <label class="radio radio--three">
-              <input type="radio" name="status" class="radio-btn">
-              <span class="radio-fontas">通常</span>
-            </label>
-            <label class="radio radio--three">
-              <input type="radio" name="status" class="radio-btn">
-              <span class="radio-fontas">休職中</span>
-            </label>
-            <label class="radio radio--three">
-              <input type="radio" name="status" class="radio-btn">
-              <span class="radio-fontas">退職</span>
-            </label>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left">社員管理権限</th>
-          <td class="table__td table__td--flex">
-            <label class="radio radio--two">
-              <input type="radio" name="management" class="radio-btn">
-              <span class="radio-fontas">あり</span>
-            </label>
-            <label class="radio radio--two">
-              <input type="radio" name="management" class="radio-btn">
-              <span class="radio-fontas">なし</span>
-            </label>
           </td>
         </tr>
       </table>
