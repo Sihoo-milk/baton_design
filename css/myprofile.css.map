@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": ";AAGA;;;;;;;kCAOkC;AAElC;;kCAEkC;AAClC,SAAU;EACR,KAAK,EAAE,KAAK;;;AAGZ,eAAQ;EACN,KAAK,EAAE,KAAK;;;AAIhB;;kCAEkC;AAEhC,YAAQ;EACN,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;;AACtB,iBAAO;EACL,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,IAAI;;AAExB,iBAAO;EACL,OAAO,EAAE,MAAM;EACf,cAAc,EAAE,MAAM;;;AAK5B;;;;;;kCAMkC;AAKlC;;;;;;;kCAOkC;AAClC,yCAA0C;EAExC;;oCAEkC;EAClC,SAAU;IACR,KAAK,EAAE,IAAI;;;EAEb,SAAU;IACR,KAAK,EAAE,IAAI;;EACX,eAAQ;IACN,KAAK,EAAE,IAAI",
-"sources": ["../sass/memberdetail.scss"],
+"sources": ["../sass/myprofile.scss"],
 "names": [],
-"file": "memberdetail.css"
+"file": "myprofile.css"
 }
