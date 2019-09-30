@@ -19,41 +19,6 @@
   <div class="main">
     <h1 class="title">プロフィール詳細</h1>
 
-    <div class="anchor">
-      <ul class="anchor__list">
-        <li class="anchor__list__item">
-          <a href="" class="anchor__list__item__link">
-            <span>基本情報</span>
-            <i class="fas fa-arrow-alt-circle-down"></i>
-          </a>
-        </li>
-        <li class="anchor__list__item">
-          <a href="" class="anchor__list__item__link">
-            <span>管理者情報</span>
-            <i class="fas fa-arrow-alt-circle-down"></i>
-          </a>
-        </li>
-        <li class="anchor__list__item">
-          <a href="" class="anchor__list__item__link">
-            <span>資格情報</span>
-            <i class="fas fa-arrow-alt-circle-down"></i>
-          </a>
-        </li>
-        <li class="anchor__list__item">
-          <a href="" class="anchor__list__item__link">
-            <span>参加プロジェクト</span>
-            <i class="fas fa-arrow-alt-circle-down"></i>
-          </a>
-        </li>
-        <li class="anchor__list__item">
-          <a href="" class="anchor__list__item__link">
-            <span>スキル情報</span>
-            <i class="fas fa-arrow-alt-circle-down"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-
     <div class="contents">
       <h2 class="contents__title">基本情報</h2>
       <div class="contents__body">
@@ -66,9 +31,10 @@
       </div>
       <table class="contents__body">
         <tr class="table__tr">
-          <th class="table__th table__th--left">社員番号</th>
+          <th class="table__th table__th--left asterisk">ユーザ名</th>
           <td class="table__td table__td--flex">
             <input type="text" class="txtField">
+            <span class="asterisk space-left sp-none">＊</span>
           </td>
         </tr>
         <tr class="table__tr">
@@ -81,14 +47,6 @@
         </tr>
         <tr class="table__tr">
           <th class="table__th table__th--left asterisk">氏名(カナ)</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-            <input type="text" class="txtField space-left">
-            <span class="asterisk space-left sp-none">＊</span>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">氏名(英字)</th>
           <td class="table__td table__td--flex">
             <input type="text" class="txtField">
             <input type="text" class="txtField space-left">
@@ -110,19 +68,6 @@
           </td>
         </tr>
         <tr class="table__tr">
-          <th class="table__th table__th--left">電話番号</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">生年月日</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-            <span class="asterisk space-left sp-none">＊</span>
-          </td>
-        </tr>
-        <tr class="table__tr">
           <th class="table__th table__th--left asterisk">性別</th>
           <td class="table__td table__td--flex">
             <label class="radio radio--two">
@@ -134,26 +79,6 @@
               <span class="radio-fontas">女性</span>
             </label>
             <span class="asterisk sp-none">＊</span>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">国籍</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-            <span class="asterisk space-left sp-none">＊</span>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">エレクス入社年月日</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-            <span class="asterisk space-left sp-none">＊</span>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left">業界入社年月日</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
           </td>
         </tr>
         <tr class="table__tr">
@@ -170,78 +95,9 @@
           </td>
         </tr>
         <tr class="table__tr">
-          <th class="table__th table__th--left">住所(市区町村以降)</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left">交通機関</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left">最寄駅</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left">学校名</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left">学部学科名</th>
-          <td class="table__td table__td--flex">
-            <input type="text" class="txtField">
-          </td>
-        </tr>
-        <tr class="table__tr">
           <th class="table__th table__th--left">自己PR</th>
           <td class="table__td table__td--flex">
             <textarea class="txtArea"></textarea>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">部署</th>
-          <td class="table__td table__td--flex">
-            <div class="pullDown">
-              <select class="pullDown__list">
-                <option value="北海道">北海道</option>
-                <option value="青森">青森</option>
-                <option value="沖縄">沖縄</option>
-              </select>
-            </div>
-            <span class="asterisk space-left sp-none">＊</span>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">拠点</th>
-          <td class="table__td table__td--flex">
-            <div class="pullDown">
-              <select class="pullDown__list">
-                <option value="北海道">北海道</option>
-                <option value="青森">青森</option>
-                <option value="沖縄">沖縄</option>
-              </select>
-            </div>
-            <span class="asterisk space-left sp-none">＊</span>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left asterisk">役職</th>
-          <td class="table__td table__td--flex">
-            <div class="pullDown">
-              <select class="pullDown__list">
-                <option value="北海道">北海道</option>
-                <option value="青森">青森</option>
-                <option value="沖縄">沖縄</option>
-              </select>
-            </div>
-            <span class="asterisk space-left sp-none">＊</span>
           </td>
         </tr>
       </table>
@@ -276,45 +132,6 @@
             </label>
             <label class="radio radio--two">
               <input type="radio" name="management" class="radio-btn">
-              <span class="radio-fontas">なし</span>
-            </label>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left">参加プロジェクト参照権限</th>
-          <td class="table__td table__td--flex">
-            <label class="radio radio--two">
-              <input type="radio" name="project" class="radio-btn">
-              <span class="radio-fontas">あり</span>
-            </label>
-            <label class="radio radio--two">
-              <input type="radio" name="project" class="radio-btn">
-              <span class="radio-fontas">なし</span>
-            </label>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left">スキルシート情報参照権限</th>
-          <td class="table__td table__td--flex">
-            <label class="radio radio--two">
-              <input type="radio" name="skillSheet" class="radio-btn">
-              <span class="radio-fontas">あり</span>
-            </label>
-            <label class="radio radio--two">
-              <input type="radio" name="skillSheet" class="radio-btn">
-              <span class="radio-fontas">なし</span>
-            </label>
-          </td>
-        </tr>
-        <tr class="table__tr">
-          <th class="table__th table__th--left">保有資格情報参照権限</th>
-          <td class="table__td table__td--flex">
-            <label class="radio radio--two">
-              <input type="radio" name="qualification" class="radio-btn">
-              <span class="radio-fontas">あり</span>
-            </label>
-            <label class="radio radio--two">
-              <input type="radio" name="qualification" class="radio-btn">
               <span class="radio-fontas">なし</span>
             </label>
           </td>
@@ -423,55 +240,28 @@
     </div>
 
     <div class="contents">
-      <h2 class="contents__title">参加プロジェクト</h2>
+      <h2 class="contents__title">参加チーム</h2>
       <div class="sp-none">
         <div class="contents__body">
           <table class="table">
             <thead>
               <tr>
-                <th class="table__th">プロジェクト名称</th>
-                <th class="table__th">開発期間(参加期間)</th>
+                <th class="table__th">チーム名</th>
                 <th class="table__th">人数規模</th>
-                <th class="table__th">役割</th>
-                <th class="table__th">開発工程</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="table__td">プロジェクトA</td>
-                <td class="table__td">
-                  <span>2017/08/01</span>
-                  <span>〜</span>
-                  <span>2017/08/31</span>
-                  <span>(1ヶ月)</span>
-                </td>
-                <td class="table__td">16</td>
-                <td class="table__td">SE</td>
-                <td class="table__td">基本設計</td>
+                <td class="table__td">チームもちもち</td>
+                <td class="table__td">2</td>
               </tr>
               <tr>
-                <td class="table__td">プロジェクトB</td>
-                <td class="table__td">
-                  <span>2017/08/01</span>
-                  <span>〜</span>
-                  <span>2017/08/31</span>
-                  <span>(1ヶ月)</span>
-                </td>
+                <td class="table__td">読売巨人軍</td>
                 <td class="table__td">16</td>
-                <td class="table__td">PM</td>
-                <td class="table__td">調査・要件定義</td>
               </tr>
               <tr>
-                <td class="table__td">プロジェクトC</td>
-                <td class="table__td">
-                  <span>2017/08/01</span>
-                  <span>〜</span>
-                  <span>2017/08/31</span>
-                  <span>(1ヶ月)</span>
-                </td>
+                <td class="table__td">スコットランド代表</td>
                 <td class="table__td">16</td>
-                <td class="table__td">SE</td>
-                <td class="table__td">調査・要件定義</td>
               </tr>
             </tbody>
           </table>

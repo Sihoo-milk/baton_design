@@ -4,8 +4,7 @@
 　PC
 
 　　1.common
-　　2.anchor
-　　3.basic
+　　2.basic
 
 ================================*/
 /*
@@ -20,38 +19,7 @@
 }
 
 /*
-　2.anchor
-================================*/
-.anchor {
-  width: 100%;
-  height: 50px;
-  background-color: #fff;
-}
-.anchor__list {
-  display: flex;
-  max-width: 1024px;
-  height: 100%;
-  margin: 0 auto;
-}
-.anchor__list__item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20%;
-}
-.anchor__list__item__link {
-  font-weight: bold;
-  text-decoration: none;
-}
-.anchor__list__item__link span {
-  color: #13cec5;
-}
-.anchor__list__item__link i {
-  color: #13cec5;
-}
-
-/*
-　3.basic
+　2.basic
 ================================*/
 .basic__icon {
   display: flex;
@@ -96,24 +64,6 @@
   }
   .pullDown__list {
     width: 100%;
-  }
-
-  /*
-  　2.anchor
-  ================================*/
-  .anchor {
-    height: 100%;
-  }
-  .anchor__list {
-    flex-direction: column;
-    width: 95%;
-  }
-  .anchor__list__item {
-    width: 100%;
-    padding: 10px 0 0;
-  }
-  .anchor__list__item:last-child {
-    padding-bottom: 10px;
   }
 }
 
