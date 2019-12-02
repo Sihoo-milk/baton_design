@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import "color";
+
+/*===============================
+
+　PC
+
+　　1.post-form
+　　2.posts/index
+
+================================*/
+
+/*
+　1.post-form
+================================*/
+.post-form {
+  &--error {
+    color: #ff4d75;
+  }
+  &__btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0;
+    text-align: right;
+  }
+  &__text-area {
+    resize: none;
+  }
+  &__text-area::-webkit-input-placeholder {
+    font-size: 24px;
+    opacity: 0.5;
+  }
+}
+
+/*
+　2.posts/index
+================================ */
+.post-content__item {
+  display: flex;
+  justify-content: space-between;
+  padding: .5em 0;
+  background-color: white;
+}
