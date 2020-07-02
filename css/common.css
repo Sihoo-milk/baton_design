@@ -4,8 +4,6 @@
 　PC
 
 　　1.common
-　　3.footer
-　　4.page-top
 
 ================================*/
 /*
@@ -222,42 +220,6 @@
   justify-content: flex-end;
 }
 
-/*
-　4.page-top
-================================*/
-.page_top {
-  position: fixed;
-  right: 20px;
-  bottom: 45px;
-  width: 50px;
-  height: 50px;
-  background: #689ACA;
-  border-radius: 50%;
-}
-.page_top a {
-  position: relative;
-  display: block;
-  width: 50px;
-  height: 50px;
-  text-decoration: none;
-}
-.page_top a::before {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  content: '\f106';
-  font-size: 25px;
-  color: #fff;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  top: -5px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  text-align: center;
-}
-
 /*===============================
 
 　Tablet
@@ -289,7 +251,6 @@
 　SP
 
 　　1.common
-　　4.smooth-scroll
 
 ================================*/
 @media only screen and (max-width: 767px) {
